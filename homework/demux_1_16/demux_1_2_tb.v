@@ -11,7 +11,7 @@ module demux_1_2_tb ();
     i = 1;
     sel = 0;
     #1
-    $display ("a = ",a, "b = ", b);
+    $display ("a = ",a, "\nb = ", b);
     
     $dumpfile("mux_2_1_tb.vcd");
     $dumpvars();

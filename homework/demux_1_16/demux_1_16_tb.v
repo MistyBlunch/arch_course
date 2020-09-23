@@ -12,7 +12,7 @@ module demux_1_16_tb();
     i = 1;
     sel = 5;
     #1
-    $display("\na =", a, "\nb =", b, "\nc =", c, "\nd =", d, "\ne =", e, "\nf =", f, "\ng =", g, "\nh =", h, "\nj =", j, "\nk =", k, "\nl =", l, "\nm =", m, "\nn =", n, "\ns =" ,s, "\no =", o, "\np =", p, "\nsel =", sel, "\ni =", i);
+    $display("a =", a, "\nb =", b, "\nc =", c, "\nd =", d, "\ne =", e, "\nf =", f, "\ng =", g, "\nh =", h, "\nj =", j, "\nk =", k, "\nl =", l, "\nm =", m, "\nn =", n, "\ns =" ,s, "\no =", o, "\np =", p, "\nsel =", sel, "\ni =", i);
     
     $dumpfile("mux_1_16_tb.vcd");
     $dumpvars();

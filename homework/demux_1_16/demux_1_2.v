@@ -4,5 +4,5 @@ module demux_1_2 (i,sel,a,b);
   output [15:0] a, b;
 
   assign a = (sel == 1'b0) ? i : 16'b0;
-  assign b = (sel == 1'b0) ? 16'b0 : i;
+  assign b = (sel == 1'b1) ? i : 16'b0;
 endmodule

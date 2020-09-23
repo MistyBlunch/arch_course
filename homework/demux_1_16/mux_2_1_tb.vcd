@@ -1,0 +1,32 @@
+$date
+	Wed Sep 23 11:59:32 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module demux_1_2_tb $end
+$var wire 16 ! b [15:0] $end
+$var wire 16 " a [15:0] $end
+$var reg 16 # i [15:0] $end
+$var reg 1 $ sel $end
+$scope module demux_1_2 $end
+$var wire 16 % i [15:0] $end
+$var wire 1 $ sel $end
+$var wire 16 & b [15:0] $end
+$var wire 16 ' a [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#1
+$dumpvars
+b1 '
+b0 &
+b1 %
+0$
+b1 #
+b1 "
+b0 !
+$end
