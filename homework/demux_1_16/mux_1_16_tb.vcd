@@ -1,0 +1,147 @@
+$date
+	Wed Sep 23 01:15:38 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module demux_1_16_tb $end
+$var wire 16 ! s [15:0] $end
+$var wire 16 " p [15:0] $end
+$var wire 16 # o [15:0] $end
+$var wire 16 $ n [15:0] $end
+$var wire 16 % m [15:0] $end
+$var wire 16 & l [15:0] $end
+$var wire 16 ' k [15:0] $end
+$var wire 16 ( j [15:0] $end
+$var wire 16 ) h [15:0] $end
+$var wire 16 * g [15:0] $end
+$var wire 16 + f [15:0] $end
+$var wire 16 , e [15:0] $end
+$var wire 16 - d [15:0] $end
+$var wire 16 . c [15:0] $end
+$var wire 16 / b [15:0] $end
+$var wire 16 0 a [15:0] $end
+$var reg 16 1 i [15:0] $end
+$var reg 4 2 sel [3:0] $end
+$scope module demux_1_16 $end
+$var wire 16 3 i [15:0] $end
+$var wire 4 4 sel [3:0] $end
+$var wire 16 5 tmp2 [15:0] $end
+$var wire 16 6 tmp1 [15:0] $end
+$var wire 16 7 s [15:0] $end
+$var wire 16 8 p [15:0] $end
+$var wire 16 9 o [15:0] $end
+$var wire 16 : n [15:0] $end
+$var wire 16 ; m [15:0] $end
+$var wire 16 < l [15:0] $end
+$var wire 16 = k [15:0] $end
+$var wire 16 > j [15:0] $end
+$var wire 16 ? h [15:0] $end
+$var wire 16 @ g [15:0] $end
+$var wire 16 A f [15:0] $end
+$var wire 16 B e [15:0] $end
+$var wire 16 C d [15:0] $end
+$var wire 16 D c [15:0] $end
+$var wire 16 E b [15:0] $end
+$var wire 16 F a [15:0] $end
+$scope module demux_1_2 $end
+$var wire 16 G i [15:0] $end
+$var wire 1 H sel $end
+$var wire 16 I b [15:0] $end
+$var wire 16 J a [15:0] $end
+$upscope $end
+$scope module demux_1_8_a $end
+$var wire 16 K i [15:0] $end
+$var wire 3 L sel [2:0] $end
+$var reg 16 M a [15:0] $end
+$var reg 16 N b [15:0] $end
+$var reg 16 O c [15:0] $end
+$var reg 16 P d [15:0] $end
+$var reg 16 Q e [15:0] $end
+$var reg 16 R f [15:0] $end
+$var reg 16 S g [15:0] $end
+$var reg 16 T h [15:0] $end
+$upscope $end
+$scope module demux_1_8_b $end
+$var wire 16 U i [15:0] $end
+$var wire 3 V sel [2:0] $end
+$var reg 16 W a [15:0] $end
+$var reg 16 X b [15:0] $end
+$var reg 16 Y c [15:0] $end
+$var reg 16 Z d [15:0] $end
+$var reg 16 [ e [15:0] $end
+$var reg 16 \ f [15:0] $end
+$var reg 16 ] g [15:0] $end
+$var reg 16 ^ h [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#1
+$dumpvars
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b101 V
+b0 U
+b0 T
+b0 S
+b1 R
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b101 L
+b1 K
+b1 J
+b0 I
+0H
+b1 G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b1 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b1 6
+b0 5
+b101 4
+b1 3
+b101 2
+b1 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b1 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end

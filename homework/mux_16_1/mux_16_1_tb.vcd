@@ -1,0 +1,167 @@
+$date
+	Tue Sep 22 17:29:56 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_16_1_tb $end
+$var wire 16 ! y [15:0] $end
+$var reg 16 " a [15:0] $end
+$var reg 16 # b [15:0] $end
+$var reg 16 $ c [15:0] $end
+$var reg 16 % d [15:0] $end
+$var reg 16 & e [15:0] $end
+$var reg 16 ' f [15:0] $end
+$var reg 16 ( g [15:0] $end
+$var reg 16 ) h [15:0] $end
+$var reg 16 * i [15:0] $end
+$var reg 16 + j [15:0] $end
+$var reg 16 , k [15:0] $end
+$var reg 16 - l [15:0] $end
+$var reg 16 . m [15:0] $end
+$var reg 16 / n [15:0] $end
+$var reg 16 0 o [15:0] $end
+$var reg 16 1 s [15:0] $end
+$var reg 4 2 sel [3:0] $end
+$scope module mux_16_1 $end
+$var wire 16 3 a [15:0] $end
+$var wire 16 4 b [15:0] $end
+$var wire 16 5 c [15:0] $end
+$var wire 16 6 d [15:0] $end
+$var wire 16 7 e [15:0] $end
+$var wire 16 8 f [15:0] $end
+$var wire 16 9 g [15:0] $end
+$var wire 16 : h [15:0] $end
+$var wire 16 ; i [15:0] $end
+$var wire 16 < j [15:0] $end
+$var wire 16 = k [15:0] $end
+$var wire 16 > l [15:0] $end
+$var wire 16 ? m [15:0] $end
+$var wire 16 @ n [15:0] $end
+$var wire 16 A o [15:0] $end
+$var wire 16 B s [15:0] $end
+$var wire 4 C sel [3:0] $end
+$var wire 16 D y [15:0] $end
+$var wire 16 E tp2 [15:0] $end
+$var wire 16 F tp1 [15:0] $end
+$scope module mux8_1_1 $end
+$var wire 16 G a [15:0] $end
+$var wire 16 H b [15:0] $end
+$var wire 16 I c [15:0] $end
+$var wire 16 J d [15:0] $end
+$var wire 16 K e [15:0] $end
+$var wire 16 L f [15:0] $end
+$var wire 16 M g [15:0] $end
+$var wire 16 N h [15:0] $end
+$var wire 3 O sel [2:0] $end
+$var reg 16 P y [15:0] $end
+$upscope $end
+$scope module mux8_1_2 $end
+$var wire 16 Q a [15:0] $end
+$var wire 16 R b [15:0] $end
+$var wire 16 S c [15:0] $end
+$var wire 16 T d [15:0] $end
+$var wire 16 U e [15:0] $end
+$var wire 16 V f [15:0] $end
+$var wire 16 W g [15:0] $end
+$var wire 16 X h [15:0] $end
+$var wire 3 Y sel [2:0] $end
+$var reg 16 Z y [15:0] $end
+$upscope $end
+$scope module mux_final $end
+$var wire 16 [ a [15:0] $end
+$var wire 16 \ b [15:0] $end
+$var wire 1 ] sel $end
+$var wire 16 ^ y [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module mux_2_1_tb $end
+$var wire 16 _ y [15:0] $end
+$var reg 16 ` a [15:0] $end
+$var reg 16 a b [15:0] $end
+$var reg 1 b sel $end
+$scope module mux_2_1 $end
+$var wire 16 c a [15:0] $end
+$var wire 16 d b [15:0] $end
+$var wire 1 b sel $end
+$var wire 16 e y [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#2
+$dumpvars
+b10 e
+b10 d
+b1 c
+1b
+b10 a
+b1 `
+b10 _
+b1 ^
+0]
+b1001 \
+b1 [
+b1001 Z
+b0 Y
+b10000 X
+b1111 W
+b1110 V
+b1101 U
+b1100 T
+b1011 S
+b1010 R
+b1001 Q
+b1 P
+b0 O
+b1000 N
+b111 M
+b110 L
+b101 K
+b100 J
+b11 I
+b10 H
+b1 G
+b1 F
+b1001 E
+b1 D
+b0 C
+b1111 B
+b10000 A
+b1110 @
+b1101 ?
+b1100 >
+b1011 =
+b1010 <
+b1001 ;
+b1000 :
+b111 9
+b110 8
+b101 7
+b100 6
+b11 5
+b10 4
+b1 3
+b0 2
+b1111 1
+b10000 0
+b1110 /
+b1101 .
+b1100 -
+b1011 ,
+b1010 +
+b1001 *
+b1000 )
+b111 (
+b110 '
+b101 &
+b100 %
+b11 $
+b10 #
+b1 "
+b1 !
+$end
+#6
