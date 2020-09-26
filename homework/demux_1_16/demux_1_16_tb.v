@@ -9,6 +9,10 @@ module demux_1_16_tb();
   demux_1_16 demux_1_16(i,sel,a,b,c,d,e,f,g,h,j,k,l,m,n,s,o,p);
 
   initial begin
+    $display("a =", a, " b =", b, " c =", c, " d =", d, " e =", e, " f =", f, " g =", g, " h =", h, " j =", j, " k =", k, " l =", l, " m =", m, " n =", n, " s =" ,s, " o =", o, " p =", p, " sel =", sel, " i =", i);
+    $dumpfile("mux_1_16_tb.vcd");
+    $dumpvars();
+
     for(z = 0; z < 16; ++z) begin
       i = 3;
       sel = z;
@@ -16,8 +20,6 @@ module demux_1_16_tb();
       $display("a =", a, " b =", b, " c =", c, " d =", d, " e =", e, " f =", f, " g =", g, " h =", h, " j =", j, " k =", k, " l =", l, " m =", m, " n =", n, " s =" ,s, " o =", o, " p =", p, " sel =", sel, " i =", i);
     end
     
-    $dumpfile("mux_1_16_tb.vcd");
-    $dumpvars();
   end
 
 endmodule

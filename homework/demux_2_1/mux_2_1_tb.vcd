@@ -1,5 +1,5 @@
 $date
-	Sat Sep 26 00:11:22 2020
+	Sat Sep 26 01:01:32 2020
 $end
 $version
 	Icarus Verilog
@@ -21,14 +21,23 @@ $var wire 16 ( x [15:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
-#10
+#0
 $dumpvars
-b0 (
-b11 '
+b11 (
+b0 '
 b11 &
-b10 %
-1$
+b0 %
+0$
 b11 #
-b0 "
-b11 !
+b11 "
+b0 !
 $end
+#5
+b0 "
+b0 (
+b11 !
+b11 '
+1$
+b1 %
+#10
+b10 %
