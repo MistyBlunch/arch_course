@@ -1,11 +1,11 @@
 $date
-	Wed Sep 23 01:15:38 2020
+	Fri Sep 25 23:52:57 2020
 $end
 $version
 	Icarus Verilog
 $end
 $timescale
-	1s
+	1ns
 $end
 $scope module demux_1_16_tb $end
 $var wire 16 ! s [15:0] $end
@@ -26,62 +26,64 @@ $var wire 16 / b [15:0] $end
 $var wire 16 0 a [15:0] $end
 $var reg 16 1 i [15:0] $end
 $var reg 4 2 sel [3:0] $end
+$var reg 16 3 z [15:0] $end
 $scope module demux_1_16 $end
-$var wire 16 3 i [15:0] $end
-$var wire 4 4 sel [3:0] $end
-$var wire 16 5 tmp2 [15:0] $end
-$var wire 16 6 tmp1 [15:0] $end
-$var wire 16 7 s [15:0] $end
-$var wire 16 8 p [15:0] $end
-$var wire 16 9 o [15:0] $end
-$var wire 16 : n [15:0] $end
-$var wire 16 ; m [15:0] $end
-$var wire 16 < l [15:0] $end
-$var wire 16 = k [15:0] $end
-$var wire 16 > j [15:0] $end
-$var wire 16 ? h [15:0] $end
-$var wire 16 @ g [15:0] $end
-$var wire 16 A f [15:0] $end
-$var wire 16 B e [15:0] $end
-$var wire 16 C d [15:0] $end
-$var wire 16 D c [15:0] $end
-$var wire 16 E b [15:0] $end
-$var wire 16 F a [15:0] $end
+$var wire 16 4 i [15:0] $end
+$var wire 4 5 sel [3:0] $end
+$var wire 16 6 tmp2 [15:0] $end
+$var wire 16 7 tmp1 [15:0] $end
+$var wire 16 8 s [15:0] $end
+$var wire 16 9 p [15:0] $end
+$var wire 16 : o [15:0] $end
+$var wire 16 ; n [15:0] $end
+$var wire 16 < m [15:0] $end
+$var wire 16 = l [15:0] $end
+$var wire 16 > k [15:0] $end
+$var wire 16 ? j [15:0] $end
+$var wire 16 @ h [15:0] $end
+$var wire 16 A g [15:0] $end
+$var wire 16 B f [15:0] $end
+$var wire 16 C e [15:0] $end
+$var wire 16 D d [15:0] $end
+$var wire 16 E c [15:0] $end
+$var wire 16 F b [15:0] $end
+$var wire 16 G a [15:0] $end
 $scope module demux_1_2 $end
-$var wire 16 G i [15:0] $end
-$var wire 1 H sel $end
-$var wire 16 I b [15:0] $end
-$var wire 16 J a [15:0] $end
+$var wire 16 H i [15:0] $end
+$var wire 1 I sel $end
+$var wire 16 J b [15:0] $end
+$var wire 16 K a [15:0] $end
 $upscope $end
 $scope module demux_1_8_a $end
-$var wire 16 K i [15:0] $end
-$var wire 3 L sel [2:0] $end
-$var reg 16 M a [15:0] $end
-$var reg 16 N b [15:0] $end
-$var reg 16 O c [15:0] $end
-$var reg 16 P d [15:0] $end
-$var reg 16 Q e [15:0] $end
-$var reg 16 R f [15:0] $end
-$var reg 16 S g [15:0] $end
-$var reg 16 T h [15:0] $end
+$var wire 16 L i [15:0] $end
+$var wire 3 M sel [2:0] $end
+$var reg 16 N a [15:0] $end
+$var reg 16 O b [15:0] $end
+$var reg 16 P c [15:0] $end
+$var reg 16 Q d [15:0] $end
+$var reg 16 R e [15:0] $end
+$var reg 16 S f [15:0] $end
+$var reg 16 T g [15:0] $end
+$var reg 16 U h [15:0] $end
 $upscope $end
 $scope module demux_1_8_b $end
-$var wire 16 U i [15:0] $end
-$var wire 3 V sel [2:0] $end
-$var reg 16 W a [15:0] $end
-$var reg 16 X b [15:0] $end
-$var reg 16 Y c [15:0] $end
-$var reg 16 Z d [15:0] $end
-$var reg 16 [ e [15:0] $end
-$var reg 16 \ f [15:0] $end
-$var reg 16 ] g [15:0] $end
-$var reg 16 ^ h [15:0] $end
+$var wire 16 V i [15:0] $end
+$var wire 3 W sel [2:0] $end
+$var reg 16 X a [15:0] $end
+$var reg 16 Y b [15:0] $end
+$var reg 16 Z c [15:0] $end
+$var reg 16 [ d [15:0] $end
+$var reg 16 \ e [15:0] $end
+$var reg 16 ] f [15:0] $end
+$var reg 16 ^ g [15:0] $end
+$var reg 16 _ h [15:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
-#1
+#80
 $dumpvars
+b11 _
 b0 ^
 b0 ]
 b0 \
@@ -89,29 +91,29 @@ b0 [
 b0 Z
 b0 Y
 b0 X
-b0 W
-b101 V
+b111 W
+b11 V
 b0 U
 b0 T
 b0 S
-b1 R
+b0 R
 b0 Q
 b0 P
 b0 O
 b0 N
-b0 M
-b101 L
-b1 K
-b1 J
-b0 I
-0H
-b1 G
+b111 M
+b0 L
+b0 K
+b11 J
+1I
+b11 H
+b0 G
 b0 F
 b0 E
 b0 D
 b0 C
 b0 B
-b1 A
+b0 A
 b0 @
 b0 ?
 b0 >
@@ -119,21 +121,21 @@ b0 =
 b0 <
 b0 ;
 b0 :
-b0 9
+b11 9
 b0 8
 b0 7
-b1 6
-b0 5
-b101 4
-b1 3
-b101 2
-b1 1
+b11 6
+b1111 5
+b11 4
+b10000 3
+b1111 2
+b11 1
 b0 0
 b0 /
 b0 .
 b0 -
 b0 ,
-b1 +
+b0 +
 b0 *
 b0 )
 b0 (
@@ -142,6 +144,6 @@ b0 &
 b0 %
 b0 $
 b0 #
-b0 "
+b11 "
 b0 !
 $end

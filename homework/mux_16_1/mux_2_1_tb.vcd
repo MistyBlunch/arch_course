@@ -1,11 +1,11 @@
 $date
-	Tue Sep 22 17:38:44 2020
+	Fri Sep 25 19:51:46 2020
 $end
 $version
 	Icarus Verilog
 $end
 $timescale
-	1s
+	1ns
 $end
 $scope module mux_2_1_tb $end
 $var wire 16 ! y [15:0] $end
@@ -20,7 +20,7 @@ $var wire 16 ' y [15:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
-#6
+#2
 $dumpvars
 b10 '
 b10 &
