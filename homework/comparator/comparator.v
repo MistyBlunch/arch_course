@@ -1,9 +1,10 @@
 module comparator(AB,CD,F1,F2,F3);
-input [1:0] AB,CD;
-output F1,F2,F3;
-
-assign F1 = (( ~(AB) & CD) | ( AB & ~(CD)));
-assign F2 = ~(AB) & CD;
-assign F3 = ~(CD) & AB;
-
+input [0:1] AB,CD;
+output reg F1,F2,F3;
+always @(AB,CD)
+begin
+ F1 = (~(AB[1]^CD[1]))&(~(AB[0]^CD[0]));
+ F2 = ((!AB[1]&CD[1])||(!AB[0]&CD[1]&CD[0])||(!AB[0]&!AB[1]&CD[0]));
+ F3 = ((AB[1]&!CD[1])||(AB[0]&!CD[1]&!CD[0])||(AB[1]&AB[0]&!CD[0])); 
+end
 endmodule

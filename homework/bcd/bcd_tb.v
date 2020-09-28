@@ -8,11 +8,12 @@ module bcd_tb();
   bcd bcd(x,y);
 
   initial begin
-    for(i = 0; i < 17; ++i) begin
+    $dumpfile("comparador.vcd");
+    $dumpvars();
+    for(i = 0; i < 12; ++i) begin
       x = i;
       #1
-      $display("x = %b ", x[3:0] ,"\ny = %b ",y[3:0]);
-      $display("--------------------------");
+      $display("inp = %b ", x[3:0] ,"\nout = %b ",y[3:0]);
     end
   end
 endmodule

@@ -1,0 +1,41 @@
+$date
+	Mon Sep 28 00:44:30 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module rs_lacth_nand_structural_tb $end
+$var wire 1 ! qn $end
+$var wire 1 " q $end
+$var reg 1 # r $end
+$var reg 1 $ s $end
+$scope module rs_test $end
+$var wire 1 " q $end
+$var wire 1 ! qn $end
+$var wire 1 # r $end
+$var wire 1 $ s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0#
+1"
+1!
+$end
+#2
+0"
+1$
+#4
+1#
+#6
+0!
+1"
+0$
+#8
+1$
+#9
