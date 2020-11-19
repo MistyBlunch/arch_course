@@ -1,0 +1,50 @@
+$date
+	Fri Oct  9 01:38:56 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_latch_tb $end
+$var wire 1 ! qn $end
+$var wire 1 " q $end
+$var reg 1 # c $end
+$var reg 1 $ t $end
+$scope module tl $end
+$var wire 1 # c $end
+$var wire 1 $ t $end
+$var wire 1 ! qn $end
+$var wire 1 " q $end
+$var reg 1 % s $end
+$var reg 1 & tt $end
+$scope module sr_latch $end
+$var wire 1 & r $end
+$var wire 1 % s $end
+$var reg 1 " q $end
+$var reg 1 ! qn $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1&
+1%
+1$
+0#
+x"
+x!
+$end
+#2
+0"
+1!
+0&
+1#
+#4
+1&
+0$
+#6
+0#
+#8

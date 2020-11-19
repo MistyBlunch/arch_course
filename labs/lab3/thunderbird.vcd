@@ -1,0 +1,115 @@
+$date
+	Wed Nov  4 17:39:32 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module thunderbird_tb $end
+$var wire 6 ! out [5:0] $end
+$var reg 1 " clk $end
+$var reg 1 # left $end
+$var reg 1 $ reset $end
+$var reg 1 % right $end
+$scope module tbird $end
+$var wire 1 " clk $end
+$var wire 1 # left $end
+$var wire 1 $ reset $end
+$var wire 1 % right $end
+$var reg 6 & n_state [5:0] $end
+$var reg 6 ' out [5:0] $end
+$var reg 6 ( state [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+b0 &
+0%
+1$
+0#
+0"
+bx !
+$end
+#3
+b11 &
+b0 !
+b0 '
+b0 (
+0$
+1"
+#6
+b1 &
+1%
+0"
+#9
+b11 &
+b1 !
+b1 '
+b1 (
+1"
+#12
+0"
+#14
+0%
+#15
+b111 &
+b11 !
+b11 '
+b11 (
+1"
+#18
+0"
+#21
+b111 !
+b111 '
+b111 (
+1"
+#24
+0"
+#27
+1"
+#30
+0"
+#33
+b1000 &
+1#
+1"
+#36
+0"
+#39
+b11000 &
+b1000 !
+b1000 '
+b1000 (
+1"
+#41
+0#
+#42
+0"
+#45
+b111000 &
+b11000 !
+b11000 '
+b11000 (
+1"
+#48
+0"
+#51
+b111000 !
+b111000 '
+b111000 (
+1"
+#54
+0"
+#57
+b111111 &
+1#
+1%
+1"
+#60
+0"

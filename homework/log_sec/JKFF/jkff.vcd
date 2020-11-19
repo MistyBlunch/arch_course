@@ -1,0 +1,126 @@
+$date
+	Fri Oct  9 03:44:59 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module jkff_tb $end
+$var wire 1 ! q $end
+$var wire 1 " qn $end
+$var reg 1 # clk $end
+$var reg 1 $ clrn $end
+$var reg 1 % j $end
+$var reg 1 & k $end
+$var reg 1 ' prn $end
+$scope module jkff $end
+$var wire 1 # clk $end
+$var wire 1 $ clrn $end
+$var wire 1 % j $end
+$var wire 1 & k $end
+$var wire 1 ' prn $end
+$var wire 1 ! q $end
+$var wire 1 " qn $end
+$var wire 1 ( r $end
+$var wire 1 ) s $end
+$scope module d_latch $end
+$var wire 1 # clk $end
+$var wire 1 $ clrn $end
+$var wire 1 ' prn $end
+$var wire 1 ! q $end
+$var wire 1 " qn $end
+$var wire 1 * r $end
+$var wire 1 ( r_ $end
+$var wire 1 + s $end
+$var wire 1 ) s_ $end
+$scope module latch $end
+$var wire 1 $ clrn $end
+$var wire 1 ' prn $end
+$var wire 1 * r $end
+$var wire 1 + s $end
+$var reg 1 , q $end
+$var reg 1 - qn $end
+$upscope $end
+$upscope $end
+$scope module t_latch $end
+$var wire 1 # clk $end
+$var wire 1 $ clrn $end
+$var wire 1 ) j $end
+$var wire 1 ( k $end
+$var wire 1 ' prn $end
+$var wire 1 ! q $end
+$var wire 1 " qn $end
+$var wire 1 . r $end
+$var wire 1 / s $end
+$scope module latch $end
+$var wire 1 $ clrn $end
+$var wire 1 ' prn $end
+$var wire 1 . r $end
+$var wire 1 / s $end
+$var reg 1 0 q $end
+$var reg 1 1 qn $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+11
+10
+1/
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+0'
+1&
+0%
+0$
+0#
+1"
+1!
+$end
+#1
+0-
+0"
+01
+0+
+0/
+1$
+1#
+#2
+0&
+1%
+1/
+1+
+0#
+#3
+1&
+0%
+0/
+0+
+1#
+#4
+1/
+1+
+0#
+#5
+0,
+0!
+00
+1-
+1"
+11
+0.
+0*
+1'
+0$
+1/
+1+
+1#
